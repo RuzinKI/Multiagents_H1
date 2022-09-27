@@ -89,7 +89,6 @@ public class TestClass {
         Assertions.assertArrayEquals(new Integer[] {0,1,3,4,5,6,7,8,9}, list.toArray());
     }
 
-
     @Test
     public void indexOfTest() {
         list.addAll(List.of(22,33,42,55,46,524,6,77,89,9));
